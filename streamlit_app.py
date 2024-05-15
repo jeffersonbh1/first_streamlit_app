@@ -1,10 +1,5 @@
 import streamlit
 import snowflake.connector
-
-streamlit.title('My Parents New Healthy Diner')
-
-
-my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
-my_cur = my_cnx.cursor()
-
-
+import pandas
+streamlit.title('Zena\'s Amazing Athleisure Catalog')
+# connect to snowflake
